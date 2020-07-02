@@ -1,6 +1,6 @@
 # colon_cancer_parameter_estimation_sensitivity_analysis
 Codes for parameter estimation and sensitivity analysis of QSP models for colon cancer. 
-The current model is based on the paper by dePillis et. al. (2014). 
+The current model is based on the paper by dePillis et. al. (2014), doi:10.9734/BJMMR/2014/8393. 
 This is a part of the National Cancer Institute-NIH funded project titled "Data-driven QSP software for personalized colon cancer treatment"
 Grant number: R21 CA242933-01
 
