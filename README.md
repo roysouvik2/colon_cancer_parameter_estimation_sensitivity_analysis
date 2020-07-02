@@ -5,9 +5,9 @@ The current model is based on the paper by dePillis et. al. (2014), "Mathematica
 This is a part of the National Cancer Institute-NIH funded project titled "Data-driven QSP software for personalized colon cancer treatment"
 Grant number: R21 CA242933-01
 
-Developers: Achyuth Manoj, Susanth Kakarla, Suvra Pal and Souvik Roy.
+# Developers: Achyuth Manoj, Susanth Kakarla, Suvra Pal and Souvik Roy.
 
-Description of the files:
+# Description of the files:
 
 DRIVER.m: The main file to run a optimization algorithm for estimating parameters
 
