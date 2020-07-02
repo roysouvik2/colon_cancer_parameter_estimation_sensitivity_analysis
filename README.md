@@ -3,6 +3,7 @@ Codes for parameter estimation and sensitivity analysis of QSP models for colon 
 The current model is based on the paper by dePillis et. al. (2014). 
 This is a part of the National Cancer Institute-NIH funded project titled "Data-driven QSP software for personalized colon cancer treatment"
 Grant number: R21 CA242933-01
+
 Developers: Achyuth Manoj, Susanth Kakarla, Suvra Pal and Souvik Roy.
 
 Description of the files:
