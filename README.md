@@ -21,7 +21,7 @@ J.m: Functional to be minimized that includes the data-fitting least squares ter
 
 gradient.m: Computes the gradient of the reduced functional
 
-ncg.m: Optimization solver
+optim.m: Optimization solver
 
 lin_search.m: Line search algorithm required for the gradient step of the optimization solver
 
