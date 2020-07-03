@@ -1,4 +1,4 @@
-# colon_cancer_parameter_estimation_sensitivity_analysis
+# Parameter estimation and sensitivity analysis framework for colon cancer (An NCI-NIH funded project)
 Codes for parameter estimation and sensitivity analysis of QSP models for colon cancer. 
 The current model is based on the paper by dePillis et. al. (2014), "Mathematical Model of Colorectal Cancer with Monoclonal Antibody Treatments", doi:10.9734/BJMMR/2014/8393 
 
