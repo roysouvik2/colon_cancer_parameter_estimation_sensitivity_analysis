@@ -28,3 +28,6 @@ lin_search.m: Line search algorithm required for the gradient step of the optimi
 inner_g.m: Computes the inner product of 2 vectors
 
 parameters.m: Contains the list of all the known and user defined parameter values for the colon cancer model
+
+# Description of the pdf file
+The pdf file is the summary of the actual paper under preparation based on which the codes have been developed.
