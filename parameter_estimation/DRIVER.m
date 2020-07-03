@@ -6,11 +6,17 @@ clear all
 clc
 
 % Generating data
-[samples_index,Td,Nd,Ld,Cd] = data();
+[dt,lt,st,pt,kt,qt,samples_index,Td,Nd,Ld,Cd] = data();
 
 % Solving for the parameters
-theta = ncg(samples_index,Td,Nd,Ld,Cd);
+theta = optim(samples_index,Td,Nd,Ld,Cd);
 
+fprintf('\n\nThe true value of d is %.6e\n',dt);
+fprintf('The true value of l is %.6e\n',lt);
+fprintf('The true value of s is %.6e\n',st);
+fprintf('The true value of p is %.6e\n',pt);
+fprintf('The true value of k is %.6e\n',kt);
+fprintf('The true value of q is %.6e\n',qt);
 
 fprintf('\n\nThe value of d is %.6e\n',theta(1));
 fprintf('The value of l is %.6e\n',theta(2));
