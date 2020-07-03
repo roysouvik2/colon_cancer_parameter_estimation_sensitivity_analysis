@@ -6,19 +6,13 @@ function [samples_index,Td,Nd,Ld,Cd] = data()
 
 
 % Patient specific parameters
-d = 1.3 + .5*randn(1,1);
-l = 1.1 + .4*randn(1,1);
-s = 4e-3 + 1e-3*randn(1,1);
-p = 5.16e-14 +1e-14*randn(1,1);
-k = 2e7 + 5e6*randn(1,1);
-q = 5.16e-10 +2e-10*randn(1,1);
+d = 1.01;
+l = 1.16;
+s = 2.3e-3;
+p = 4.4e-14;
+k = 1.59e7;
+q = 6.2e-14;
 
-% d = 1.3 + .5;%*randn(1,1);
-% l = 1.1 + .4;%*randn(1,1);
-% s = 4 + 1;%*randn(1,1);
-% p = 5.16 +1;%*randn(1,1);
-% k = 2+ .5;%*randn(1,1);
-% q = 5.16 +2;%*randn(1,1);
 
 [T,N,L,C] = forward(d,l,s,p,k,q);
 

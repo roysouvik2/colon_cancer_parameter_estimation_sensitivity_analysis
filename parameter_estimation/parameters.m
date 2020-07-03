@@ -21,23 +21,11 @@ r2 = 1e-15;
 beta = 6.3e-3;
 alpha = 3e9*beta;
 
-% a = 2.31;
-% b = 2.146;
-% c = 5.156;
-% f = 1;
-% e = 1/9*f;
-% j = 1.245;
-% r1 = 5.156;
-% r2 = 1;
-% beta = 6.3;
-% alpha = 3*beta;
-
-
 % Functional parameter values
-a_T = 0.1;
-a_N = 0.1;
-a_L = 0.1;
-a_C = 0.1;
+a_T = 1;
+a_N = 1;
+a_L = 1;
+a_C = 1;
 
 % Regularization parameter values
 gamm = 0.00000000001;
