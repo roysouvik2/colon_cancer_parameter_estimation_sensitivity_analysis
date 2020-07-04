@@ -7,12 +7,12 @@ function [T,N,L,C] = forward(d,l,s,p,k,q)
 
 [t0,Tf,t,h,m,a,b,c,e,f,j,r1,r2,alpha,beta,a_T,a_N,a_L,a_C,gamm] = parameters();
 
-% Initial conditions
+% Scaled initial conditions
 
-T(1) = 4.66;%4.66e9;
-N(1) = 9;%9e7;
-L(1) = 1.8;%1.8e5;
-C(1) = 9;%9e8;
+T(1) = 4.66;
+N(1) = 9;
+L(1) = 1.8;
+C(1) = 9;
 
 % Solving the ODE for subsequent time steps
 for i = 2:m+1
@@ -23,27 +23,4 @@ for i = 2:m+1
     C(i) = C(i-1) + h*(alpha-beta*C(i-1));
 end
 
-% figure(1)
-% plot(t,T)
-% xlabel('t')
-% ylabel('T')
-% title('Plot of T')
-% 
-% figure(2)
-% plot(t,N)
-% xlabel('t')
-% ylabel('N')
-% title('Plot of N')
-% 
-% figure(3)
-% plot(t,L)
-% xlabel('t')
-% ylabel('L')
-% title('Plot of L')
-% 
-% figure(4)
-% plot(t,C)
-% xlabel('t')
-% ylabel('C')
-% title('Plot of C')
-% 
+
