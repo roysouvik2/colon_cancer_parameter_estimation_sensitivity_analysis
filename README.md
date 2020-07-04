@@ -10,35 +10,35 @@ Developers: Achyuth Manoj, Susanth Kakarla, Suvra Pal and Souvik Roy.
 # Description of the files:
 PARAMETER ESTIMATION-
 
-DRIVER.m: The main file to run a optimization algorithm for estimating parameters
+DRIVER.m: The main file to run a optimization algorithm for estimating parameters.
 
-forward.m: Solves the forward ODE QSP model for colon cancer
+forward.m: Solves the forward ODE QSP model for colon cancer. Should modify if the QSP model changes.
 
-adjoint.m: solves the adjoint ODE 
+adjoint.m: solves the adjoint ODE. Should modify if the QSP model changes.
 
-data.m: Generates the patient data to be fed in as input for the optimization setup
+data.m: Generates the patient data to be fed in as input for the optimization setup. Should modify if the QSP model changes.
 
-J.m: Functional to be minimized that includes the data-fitting least squares terms and regularization terms
+J.m: Functional to be minimized that includes the data-fitting least squares terms and regularization terms. Should modify if the QSP model changes.
 
-gradient.m: Computes the gradient of the reduced functional
+gradient.m: Computes the gradient of the reduced functional. Should modify if the QSP model changes.
 
-optim.m: Optimization solver
+optim.m: Optimization solver.
 
-lin_search.m: Line search algorithm required for the gradient step of the optimization solver
+lin_search.m: Line search algorithm required for the gradient step of the optimization solver.
 
-inner_g.m: Computes the inner product of 2 vectors
+inner_g.m: Computes the inner product of 2 vectors.
 
-parameters.m: Contains the list of all the known and user defined parameter values for the colon cancer model
+parameters.m: Contains the list of all the known and user defined parameter values for the colon cancer model. Should modify if the QSP model changes.
 
 SENSITIVTY ANALYSIS-
 
-LHS.m: Computes the Latin hypercube samples (LHS) of the uncertain parameters obtained from the optimization step
+LHS.m: Computes the Latin hypercube samples (LHS) of the uncertain parameters obtained from the optimization step.
 
-Weibull_par.m: Computes the LHS for a given uncertain parameter using a Weibull distribution
+Weibull_par.m: Computes the LHS for a given uncertain parameter using a Weibull distribution.
 
-Newton.m: Computes the scale and the shape parameter of a Weibull distribution in a given interval
+Newton.m: Computes the scale and the shape parameter of a Weibull distribution in a given interval.
 
-par_corr.m: Computes the PRCC of the uncertain parameters with respect to the tumor cell count
+par_corr.m: Computes the PRCC of the uncertain parameters with respect to the tumor cell count.
 
 # Description of the pdf file
 The pdf file is the summary of the actual paper under preparation based on which the codes have been developed.
