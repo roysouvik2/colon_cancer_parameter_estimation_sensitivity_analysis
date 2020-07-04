@@ -38,5 +38,7 @@ Weibull_par.m: Computes the LHS for a given uncertain parameter using a Weibull 
 
 Newton.m: Computes the scale and the shape parameter of a Weibull distribution in a given interval
 
+par_corr.m: Computes the PRCC of the uncertain parameters with respect to the tumor cell count
+
 # Description of the pdf file
 The pdf file is the summary of the actual paper under preparation based on which the codes have been developed.
