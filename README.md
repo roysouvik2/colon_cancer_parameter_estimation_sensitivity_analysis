@@ -5,7 +5,7 @@ Though the current model is a modification of the one given in the paper by dePi
 This is a part of the National Cancer Institute-NIH funded project titled "Data-driven QSP software for personalized colon cancer treatment"
 Grant number: R21 CA242933-01
 
-Developers: Achyuth Manoj, Susanth Kakarla, Suvra Pal and Souvik Roy.
+Developers: Achyuth Manoj, Susanth Kakarla, Juan Villegas, Suvra Pal and Souvik Roy.
 
 # Description of the files:
 PARAMETER ESTIMATION-
